@@ -13,7 +13,7 @@ The repository is organized as follows:
 ├── main_code.m                # Main MATLAB script for the blood component analysis
 ├── Im196_0.tif                # Sample image file used in the thesis
 └── README.md                  # Repository documentation
-
+/
 ```plaintext
 
 ## Thesis Abstract
