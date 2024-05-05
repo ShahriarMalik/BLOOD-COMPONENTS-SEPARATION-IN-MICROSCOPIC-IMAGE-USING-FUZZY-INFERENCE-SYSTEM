@@ -4,13 +4,16 @@ This repository contains the thesis paper and associated MATLAB code used for th
 
 ## Repository Structure
 
+The repository is organized as follows:
+```plaintext
 /
-|-- images/ # Folder containing images used in the thesis
-|-- Thesis Paper.pdf # The complete thesis document
-|-- color_marking.m # MATLAB script for color marking in image processing
-|-- main_code.m # Main MATLAB script for the blood component analysis
-|-- Im196_0.tif # Sample image file used in the thesis
-|-- README.md # Repository documentation
+├── images/                    # Folder containing images used in the thesis
+├── Thesis Paper.pdf           # The complete thesis document
+├── color_marking.m            # MATLAB script for color marking in image processing
+├── main_code.m                # Main MATLAB script for the blood component analysis
+├── Im196_0.tif                # Sample image file used in the thesis
+└── README.md                  # Repository documentation
+
 
 
 ## Thesis Abstract
