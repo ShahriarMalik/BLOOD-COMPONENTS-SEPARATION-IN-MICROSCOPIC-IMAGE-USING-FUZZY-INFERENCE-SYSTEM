@@ -8,7 +8,7 @@ The repository is organized as follows:
 ```plaintext
 /
 ├── images/                    # Folder containing images used in the thesis
-├── Thesis Paper.pdf           # The unpublished paper paper from the Thesis
+├── Thesis Paper.pdf           # The unpublished paper from the Thesis
 ├── color_marking.m            # MATLAB script for color marking in image processing
 ├── main_code.m                # Main MATLAB script for the blood component analysis
 ├── Im196_0.tif                # Sample image file used in the thesis
