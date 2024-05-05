@@ -1,35 +1,27 @@
 # Blood Components Separation Using Fuzzy Inference System
 
-This repository contains the thesis paper and related resources for the study on the automated separation and classification of blood components from microscopic blood smear images using a Fuzzy Inference System (FIS). 
+This repository contains the thesis paper and associated MATLAB code used for the research on automated separation and classification of blood components from microscopic blood smear images using a Fuzzy Inference System (FIS).
 
-## Authors
-- Mrinal Kanti Dhar
-- Shahriar Malik
-- Ahmed Al Mashrif Rim
-- M. Jahirul Islam
+## Repository Structure
 
-## Institutions
-- Department of Electrical and Electronic Engineering, Leading University, Sylhet, Bangladesh
-- Department of Computer Science & Engineering, Shahjalal University of Science and Technology, Sylhet, Bangladesh
+/
+|-- images/ # Folder containing images used in the thesis
+|-- Thesis Paper.pdf # The complete thesis document
+|-- color_marking.m # MATLAB script for color marking in image processing
+|-- main_code.m # Main MATLAB script for the blood component analysis
+|-- Im196_0.tif # Sample image file used in the thesis
+|-- README.md # Repository documentation
 
-## Abstract
-The conventional method in hematology for detecting blood components is based on human inspection, which is prone to errors and inefficiency. This research applies a fuzzy inference system for the automatic classification and detection of blood components, enhancing the precision and speed of hematological analyses. The approach uses histogram peaks in the green channel of RGB images and distances between leukocyte nuclei centroid and remaining pixels to calculate fuzzy sets automatically during preprocessing.
 
-## Key Features
-- **Fuzzy Inference System**: Automates the classification and detection of blood components.
-- **Histogram Analysis**: Utilizes histogram peaks for more precise image processing.
-- **Morphological Operations**: Employs advanced image processing techniques to improve classification accuracy.
+## Thesis Abstract
+The conventional method in hematology for detecting blood components is based on human inspection. This thesis proposes an automatic classification and detection system using a fuzzy inference system, which processes histogram peaks and spatial distances in microscopic images for enhanced accuracy and efficiency in hematology labs.
 
-## Results
-The performance of the proposed method was evaluated using a confusion matrix, showcasing significant improvements in the automated detection and classification of blood components compared to traditional methods.
+## MATLAB Scripts
+- **color_marking.m**: Script used for applying color-based marking to processed images.
+- **main_code.m**: The primary script that implements the fuzzy inference system for image analysis.
 
-## Repository Contents
-- `Thesis Paper.pdf` - Full documentation and write-up of the research study.
-- `Figures/` - Directory containing all figures and images referenced in the thesis.
-- `Data/` - Example datasets used for analysis (if applicable and publicly shareable).
+## Images
+The `images/` directory contains all graphical data and figures referenced in the thesis. These are crucial for understanding the visual outcomes of the research.
 
 ## Viewing the Thesis
-The thesis can be viewed directly in this repository by accessing the [Thesis Paper.pdf](./Thesis%20Paper%20(1).pdf) file.
-
-## Citing This Work
-If you use the concepts or data provided in this thesis for your research, please cite it as follows:
+You can view the full thesis by accessing the [Thesis Paper.pdf](./Thesis%20Paper.pdf) file.
