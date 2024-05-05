@@ -13,8 +13,7 @@ The repository is organized as follows:
 ├── main_code.m                # Main MATLAB script for the blood component analysis
 ├── Im196_0.tif                # Sample image file used in the thesis
 └── README.md                  # Repository documentation
-/
-```plaintext
+```
 
 ## Thesis Abstract
 The conventional method in hematology for detecting blood components is based on human inspection. This thesis proposes an automatic classification and detection system using a fuzzy inference system, which processes histogram peaks and spatial distances in microscopic images for enhanced accuracy and efficiency in hematology labs.
